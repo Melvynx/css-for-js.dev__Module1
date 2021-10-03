@@ -1,12 +1,69 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  --section-padding: 32px;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+.intro-chunk {
+  margin-top: 64px;
+  padding: var(--section-padding);
+  max-width: 400px;
+}
+
+strong {
+  color: #319966;
+}
+
+header p {
+  font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 64px;
+}
+
+main {
+  border-top: 4px solid #666666;
+  background-color: #999999;
+  height: 100%;
+}
+
+.max-width-wrapper {
+  min-width: min-content;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  margin-top: 64px;
+  border-bottom: 4px solid #666666;
+}
+
+.card p {
+  padding-right: var(--section-padding);
+  padding-left: var(--section-padding);
+}
+
+.indented-heading {
+  background-color: #f6c001;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 0px;
+  padding: 16px;
+  margin-left: -16px;
+  padding-left: calc(var(--section-padding) + 16px);
+  border-bottom: 4px solid #cc9901;
+}
