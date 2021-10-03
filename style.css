@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   --section-padding: 32px;
+  color: hsl(0deg, 0%, 0%);
 }
 
 html,
@@ -20,20 +21,21 @@ body {
 }
 
 strong {
-  color: #319966;
+  color: hsl(160deg, 100%, 30%);
 }
 
 header p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h1 {
   margin-bottom: 64px;
+  font-size: 2rem;
 }
 
 main {
-  border-top: 4px solid #666666;
-  background-color: #999999;
+  border-top: 4px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
   height: 100%;
 }
 
@@ -45,25 +47,27 @@ main {
 }
 
 .card {
-  background-color: white;
+  background-color: hsl(0deg, 0%, 100%);
   padding-top: 8px;
   padding-bottom: 16px;
   margin-top: 64px;
-  border-bottom: 4px solid #666666;
+  border-bottom: 4px solid hsl(0deg, 0%, 40%);
 }
 
 .card p {
   padding-right: var(--section-padding);
   padding-left: var(--section-padding);
+  font-size: 1rem;
 }
 
 .indented-heading {
-  background-color: #f6c001;
+  background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
   width: -moz-fit-content;
   margin: 0px;
   padding: 16px;
   margin-left: -16px;
   padding-left: calc(var(--section-padding) + 16px);
-  border-bottom: 4px solid #cc9901;
+  border-bottom: 4px solid hsl(45deg, 100%, 40%);
+  font-size: 1.5rem;
 }
